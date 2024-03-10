@@ -1,4 +1,4 @@
-# true
+# MidDevHash
 
 How to start the true application
 ---

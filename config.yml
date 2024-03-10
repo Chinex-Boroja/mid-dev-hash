@@ -2,3 +2,12 @@ logging:
   level: INFO
   loggers:
     org.chinexboroja: DEBUG
+
+
+datasource:
+  driverClass: org.postgresql.Driver
+  user: ${DB_USER:-root}
+  password: ${DB_PASS:-root}
+  url: ${DB_URL:-jdbc:postgresql://localhost:5432/postgres}
+  properties:
+    charSet: UTF-8
